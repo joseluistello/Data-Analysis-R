@@ -1,0 +1,46 @@
+---
+title: "Employment and earnings analysis"
+date: 2021-04-04
+output: html_output
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tidytuesdayR)
+
+```
+
+
+
+
+```{r Load}
+
+tt <- tt_load("2021-02-23")
+
+```
+
+```{r}
+tt
+
+tt$earn
+
+tt$employed
+```
+
+```{r}
+tt
+
+earn <- tt$earn
+
+employed <- tt$employed
+```
+
+```{r}
+earn %>% 
+  count(sex)
+```
+
