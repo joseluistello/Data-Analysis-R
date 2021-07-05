@@ -6,6 +6,8 @@
 
 ## 💡 Projects 
 
+### 📈 Data Visualization and Forecasting Modeling 
+
 #### [An Introduction to Forecasting Modeling](https://joseluistello.github.io/r/forecasting_mexico_GDPPC/)
 
 #### [Semiconductor Market Analysis](https://joseluistello.github.io/r/semiconductors-part1/)
