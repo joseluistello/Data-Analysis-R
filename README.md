@@ -10,15 +10,19 @@
 
 💡 **Projects**
 
-**Data analysis and modeling** 
+**Data Analysis** 
 
 - [Data Analysis Process with R](https://joseluistello.github.io/r/2021/07/12/data-analysis-process.html) - An overview to my approach on how to analyze data 
 
 - [An Introduction to Forecasting Modeling](https://joseluistello.github.io/r/2021/05/22/forecasting_mexico_GDPPC.html/) -  What is forecasting modeling and how it's divided
 
+- [Olympic Medals 2021](https://joseluistello.github.io/r/2021/08/09/datavisualization-medals-tokyo2021.html) Visualizing Tokyo with R, Ggplot and Dplyr
+
 **Finance** 
 
 - [Semiconductor Market Analysis](https://joseluistello.github.io/r/2021/06/28/semiconductors-part1.html) - Breaking through the semiconductor industry complexity 
+
+- [Working with API REST and JSONs](https://joseluistello.github.io/python/2021/09/04/financial-api.html) - Financial Analysis x10 Faster
 
 📙 **Substack in spanish**
 
