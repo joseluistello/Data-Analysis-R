@@ -12,7 +12,7 @@ fabless <- c("NVDA", "AVGO", "QCOM") %>%
          to   = "2021-10-10") 
 
 
-fablessra <- c("NVDA", "AVGO", "QCOM") %>%
+Ra <- c("NVDA", "AVGO", "QCOM") %>%
   tq_get(get  = "stock.prices",
          from = "2015-01-01",
          to   = "2021-10-10") %>%
@@ -33,8 +33,14 @@ Rb <- "XLK" %>%
 
 #### Combine data
 
-RaRb <- left_join(fablessra, Rb, by = c("date" = "date"))
+RaRb <- left_join(Ra, Rb, by = c("date" = "date"))
 
+RaRb_capm <- RaRb %>%
+  tq_performance(Ra = Ra, 
+                 Rb = Rb, 
+                 performance_fun = table.CAPM)
+
+#### Analysis
 
 
 ggplot(fabless, 
@@ -46,8 +52,5 @@ ggplot(fabless,
        y =  "Close Price") +
   theme_minimal() +
   scale_color_brewer(palette = "Dark2")
-
-
-fablessra
 
 
