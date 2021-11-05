@@ -1,13 +1,8 @@
 ---
-title: "Disasteers"
-author: "José Luis Tello"
-date: "5/11/2021"
-output: html_document
+title: "R Notebook"
+output: html_notebook
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 
 ```{r cars}
@@ -44,4 +39,3 @@ df %>% count(Year, Country, DisasterType) %>% filter (n > 10) %>% arrange(desc(Y
 ### WHERE Disasters >= 10
 ### GROUP BY Year, Country
 ### ORDER BY Year DESC;
-
